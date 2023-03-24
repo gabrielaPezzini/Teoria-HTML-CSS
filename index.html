@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de HTML e CSS</title>
+  <!-- 10 - CSS no head -->
+
+  <style>
+    body {
+      padding-bottom: 500px;
+    }
+
+    h2 {
+      color: green;
+    }
+  </style>
+
+  <!-- 15 - Adicionando arquivo de CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- 1 - Elementos do HTML -->
+  <h1>Testando 123</h1>
+  <p>Algum texto do meu site.</p>
+
+  <!-- 2- Títulos -->
+  <h2>Título</h2>
+  <h2>Um outro h2</h2>
+  <h3>Outro título</h3>
+
+  <!-- 3 - Parágrafos -->
+  <p>A gente vai utilizar muito a tag p</p>
+
+  <!-- 4 - Atributos -->
+  <a href="https://google.com">Acessar o Google</a>
+
+  <!-- 5 - Elementos sem fechamento -->
+  <hr>
+  <br>
+  <hr>
+
+  <!-- 6 - Imagens -->
+  <img src="img/meteoro.jpg" alt="">
+  <hr>
+
+  <!-- 7 - Atributo alt -->
+  <img src="img/praia.jpg" alt="Uma praia em um dia de sol">
+  <hr>
+
+  <!-- 8 - Imagem Externa -->
+  <img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" alt="Logo HTML">
+  <hr>
+
+  <!-- 9 - CCS inline -->
+  <p style="color: red">Testando CSS</p>
+  <p style="color: red">Testando CSS</p>
+
+  <!-- 11 - Div -->
+  <div>
+    <h3>Produto X</h3>
+    <p>R$ 50,00</p>
+    <a href="">Comprar</a>
+  </div>
+
+  <!-- 12 - Tabelas -->
+  <table>
+    <thead>
+      <tr>
+        <th>ID:</th>
+        <th>Nome:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Matheus</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>João</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 13 - Listas -->
+  <ul>
+    <li>Maçã</li>
+    <li>Laranja</li>
+    <li>Limão</li>
+  </ul>
+
+  <ol>
+    <li>Estudar HMTL</li>
+    <li>Estudar CSS</li>
+    <li>Estudar JavaScript</li>
+  </ol>
+
+  <!-- 14 - Elementos de bloco e inline -->
+  <p>Parágrafo</p>
+  <p>é de bloco</p>
+  <span>Na mesma</span>
+  <span>linha</span>
+
+  <p>Clique neste <a href="#">link</a></p>
+
+  <!-- 16 - Integração com CSS -->
+  <h1>Testando integração</h1>
+
+  <!-- 18 - id -->
+  <h3 id="title">Meu título</h3>
+  <h3>Meu segundo título</h3>
+
+  <!-- 19 - Classes -->
+  <p class="text">Meu parágrafo</p>
+  <p class="text">Mais um parágrafo</p>
+  <p class="text">E outro</p>
+  <p>E o último</p>
+
+  <!-- 20 - Background -->
+  <p class="background">Mude o meu Background</p>
+
+  <!-- 21 - Dois elementos, uma regra -->
+  <p>Meu texto</p>
+  <p class="title-small">Um texto do site</p>
+
+  <!-- 22 - Background image -->
+  <h3 class="background-image">Testando imagem de background</h3>
+
+  <!-- 23 - Conceito de Box Model -->
+
+  <!-- 24 - Largura e altura -->
+  <div id="width-height"></div>
+
+  <!-- 25 - padding -->
+  <div id="padding">Testando padding</div>
+
+  <!-- 26 - margin -->
+  <div id="margin">Testando margem</div>
+
+  <!-- 27 - border -->
+  <div id="border">Testando borda</div>
+
+  <!-- 28 - raio da borda -->
+  <div id="border-radius">Testando raio da borda</div>
+
+  <!-- 29 - cores -->
+  <div id="hex"></div>
+  <div id="rgb"></div>
+  <div id="hsl"></div>
+
+  <!-- 30 - Alinhamento de texto -->
+  <div id="center">
+    <p>Alinhando o texto</p>
+    <p>Outro texto</p>
+  </div>
+
+  <!-- 31 - Decoration -->
+  <p id="underline">Texto com underline</p>
+  <p id="line">Linha do texto</p>
+  <a id="sem-underline" href="#">Link</a>
+
+  <!-- 32 - font size -->
+  <h2 id="fonte-pequena">Meu título menor</h2>
+
+  <!-- 33 - Transform -->
+  <p id="lower">TODO EM CAIXA BAIXA</p>
+  <p id="upper">tudo em caixa alta</p>
+
+  <!-- 34 - alteração de fonte -->
+  <p id="serif">Exemplo de fonte serifada</p>
+  <p id="sans-serif">Exemplo de fonte sem serifa</p>
+  <p id="cursive">Exemplo de fonte cursiva</p>
+
+  <!-- 35 - Display -->
+  <!-- se o elemento é de bloco ou não -->
+  <div class="inline"></div>
+  <div class="inline"></div>
+  <div class="inline"></div>
+
+  <span class="block">A</span>
+  <span class="block">B</span>
+  <span class="block">C</span>
+
+  <!-- 36 - ocultando elementos-->
+  <p id="none">Estou invisível</p>
+
+  <!-- 37 - position -->
+  <div id="relative"></div>
+  <p>Relativo ficou na frente</p>
+
+  <div id="absolute"></div>
+
+  <div id="fixed"></div>
+
+  <!-- 38 - relative e absolute -->
+  <div id="relative-2">
+    <div id="absolute-1"></div>
+    <div id="absolute-2"></div>
+  </div>
+</body>
+
+</html>
